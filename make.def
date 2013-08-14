@@ -1,0 +1,10 @@
+ROOTDIR := $(shell echo ~/code/apue/apue)
+CC = gcc
+CFLAGS := -DLINUX -ansi -I$(ROOTDIR)/include -Wall -ggdb -D_GNU_SOURCE
+LDFLAGS :=
+LDDIR := -L$(ROOTDIR)/lib
+LDLIBS := $(ROOTDIR)/lib/libapue.a
+
+
+TEMPFILES = core core.* *.o temp.* *.out typescript*
+

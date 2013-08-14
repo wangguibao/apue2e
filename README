@@ -1,0 +1,3 @@
+HOW TO COMPILE
+========================
+1. Change $(ROOTDIR) in make.def before running 'make'
