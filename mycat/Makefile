@@ -1,6 +1,6 @@
 include ../make.def
 
-PROGS = mycat
+PROGS = mycat getcputc
 
 all: $(PROGS)
 
