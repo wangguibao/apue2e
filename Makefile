@@ -1,4 +1,4 @@
-DIRS := lib file mycat
+DIRS := lib file mycat proc
 
 all: linux
 
