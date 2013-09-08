@@ -4,7 +4,7 @@ AR := ar
 LIB := libapue.a
 RANLIB := ranlib
 
-OBJS := error.o
+OBJS := error.o pathalloc.o
 
 all: $(OBJS)
 	$(AR) rv $(LIB) $?
