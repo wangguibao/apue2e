@@ -1,6 +1,6 @@
 include ../make.def
 
-PROGS = myls
+PROGS = myls seek hole
 
 all: $(PROGS)
 
