@@ -46,3 +46,18 @@ void err_quit(const char *fmt, ...)
     va_end(ap);
     exit(1);
 }
+
+/**
+ * Fatal error related to a system call
+ * Print a message, dump core, and terminate
+ */
+void err_dump(const char *fmt, ...)
+{
+    va_list ap;
+    va_start(ap, fmt);
+    err_doit(1, errno, fmt, ap);
+    va_end(ap);
+    abort();                            /* Dump core and terminate*/
+    exit(1);                            /* Shouldn't get here */
+}
+

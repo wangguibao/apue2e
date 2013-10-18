@@ -3,4 +3,6 @@ figure 1.4  mycat/mycat.c
 figure 2.15 lib/pathalloc.c
 figure 3.1  file/seek.c
 figure 3.2  file/hole.c
+figure 3.10 file/fileflags.c
+
 
