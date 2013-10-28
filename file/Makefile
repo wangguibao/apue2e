@@ -1,6 +1,6 @@
 include ../make.def
 
-PROGS = myls seek hole fileflags
+PROGS = myls seek hole fileflags filetype
 
 all: $(PROGS)
 
