@@ -1,6 +1,6 @@
 include ../make.def
 
-PROGS = access myls seek hole fileflags filetype umask
+PROGS = access myls seek hole fileflags filetype umask unlink
 
 all: $(PROGS)
 
