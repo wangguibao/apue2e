@@ -8,5 +8,6 @@ figure 4.3  file/filetype.c
 figure 4.8  file/access.c
 figure 4.9  file/umask.c
 figure 4.16 file/unlink.c
+figure 4.21 file/zap.c
 
 
