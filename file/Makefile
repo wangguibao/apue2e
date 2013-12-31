@@ -1,6 +1,6 @@
 include ../make.def
 
-PROGS = access ftw4 myls seek hole fileflags filetype umask unlink zap
+PROGS = access cdpwd ftw4 myls seek hole fileflags filetype umask unlink zap
 
 all: $(PROGS)
 
